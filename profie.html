@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stlye.css" />
+    <title>profile</title>
+  </head>
+
+  <body>
+    <main>
+      <div class="head">
+        <img
+          src="1st/20230409_075839.jpg"
+          alt="profile-headstock"
+          data-testid="slackDisplayImage"
+        />
+        <h1 data-testid="slackUserName">Osauyi</h1>
+      </div>
+      <div class="time">
+        <div class="clock">
+          <p>time:</p>
+          <p data-testid="currentUTCTime" class="thetime">2oclock</p>
+        </div>
+        <div class="week">
+          <p>Day:</p>
+          <p data-testid="currentDayOfTheWeek" class="theday">tuesday</p>
+        </div>
+      </div>
+      <div class="track">
+        <p>Track:</p>
+        <p data-testid="myTrack">Frontend Track</p>
+      </div>
+      <div class="url">
+        <p>Github URL:</p>
+        <a
+          data-testid="githubURL"
+          href="https://github.com/Osauyi/1st-stage.git"
+          >link to the repository</a
+        >
+      </div>
+    </main>
+  </body>
+  <script src="/1st/index.js"></script>
+</html>
